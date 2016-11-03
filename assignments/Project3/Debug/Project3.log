@@ -1,0 +1,20 @@
+﻿Build started 4/13/2016 6:25:00 PM.
+     1>Project "D:\workspace4\cp\Project3\Project3\Project3.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\softwares\precompiled_qt\qt5-5.5.0-vs2013\qt5-x86-shared-release\include" /I"C:\Program Files (x86)\Gecode\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt NQueens.cpp
+         NQueens.cpp
+     1>c:\program files (x86)\gecode\include\gecode\kernel\archive.hpp(278): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\program files (x86)\gecode\include\gecode\search.hh(315): warning C4251: 'Gecode::Search::CutoffRandom::rnd' : class 'Gecode::Support::LinearCongruentialGenerator<2147483647,48271,44488,3399>' needs to have dll-interface to be used by clients of class 'Gecode::Search::CutoffRandom'
+     1>c:\program files (x86)\gecode\include\gecode\search\meta\rbs.hh(59): warning C4251: 'Gecode::Search::Meta::RestartStop::m_stat' : class 'Gecode::Search::Statistics' needs to have dll-interface to be used by clients of class 'Gecode::Search::Meta::RestartStop'
+                 c:\program files (x86)\gecode\include\gecode\search.hh(136) : see declaration of 'Gecode::Search::Statistics'
+     1>c:\program files (x86)\gecode\include\gecode\gist.hh(169): warning C4251: 'Gecode::Gist::TextOutput::n' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Gecode::Gist::TextOutput'
+     1>c:\program files (x86)\gecode\include\gecode\driver.hh(571): warning C4251: 'Gecode::Options::inspect' : class 'Gecode::Options::_I' needs to have dll-interface to be used by clients of class 'Gecode::Options'
+                 c:\program files (x86)\gecode\include\gecode\driver.hh(533) : see declaration of 'Gecode::Options::_I'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\workspace4\cp\Project3\Debug\Project3.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\softwares\precompiled_qt\qt5-5.5.0-vs2013\qt5-x86-shared-release\lib" /LIBPATH:"C:\Program Files (x86)\Gecode\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\workspace4\cp\Project3\Debug\Project3.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\workspace4\cp\Project3\Debug\Project3.lib" /MACHINE:X86 Debug\NQueens.obj
+         Project3.vcxproj -> D:\workspace4\cp\Project3\Debug\Project3.exe
+     1>Done Building Project "D:\workspace4\cp\Project3\Project3\Project3.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.70
